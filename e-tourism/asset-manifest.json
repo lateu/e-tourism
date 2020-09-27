@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/e-tourism/static/css/main.f45226ac.chunk.css",
+    "main.js": "/e-tourism/static/js/main.d1b799a9.chunk.js",
+    "main.js.map": "/e-tourism/static/js/main.d1b799a9.chunk.js.map",
+    "runtime-main.js": "/e-tourism/static/js/runtime-main.8da0140b.js",
+    "runtime-main.js.map": "/e-tourism/static/js/runtime-main.8da0140b.js.map",
+    "static/css/2.f9a01b75.chunk.css": "/e-tourism/static/css/2.f9a01b75.chunk.css",
+    "static/js/2.6761dbb0.chunk.js": "/e-tourism/static/js/2.6761dbb0.chunk.js",
+    "static/js/2.6761dbb0.chunk.js.map": "/e-tourism/static/js/2.6761dbb0.chunk.js.map",
+    "index.html": "/e-tourism/index.html",
+    "precache-manifest.02757e04e1a49a337bc8b8a2677fef50.js": "/e-tourism/precache-manifest.02757e04e1a49a337bc8b8a2677fef50.js",
+    "service-worker.js": "/e-tourism/service-worker.js",
+    "static/css/2.f9a01b75.chunk.css.map": "/e-tourism/static/css/2.f9a01b75.chunk.css.map",
+    "static/css/main.f45226ac.chunk.css.map": "/e-tourism/static/css/main.f45226ac.chunk.css.map",
+    "static/js/2.6761dbb0.chunk.js.LICENSE.txt": "/e-tourism/static/js/2.6761dbb0.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/e-tourism/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo.svg": "/e-tourism/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8da0140b.js",
+    "static/css/2.f9a01b75.chunk.css",
+    "static/js/2.6761dbb0.chunk.js",
+    "static/css/main.f45226ac.chunk.css",
+    "static/js/main.d1b799a9.chunk.js"
+  ]
+}

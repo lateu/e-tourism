@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import { Link, } from 'react-router-dom';
-
 export default class HitItem extends Component {
 
-    constructor(props) {
-        super(props);
-
-    }
 
 
     // return hit element details to show
@@ -19,8 +14,8 @@ export default class HitItem extends Component {
 
 
                     <div className="card-body">
-                        {(this.props.detailShow === false) ? <img height="200" src={this.props.hit.webformatURL} className="card-img" /> :
-                            <img src={this.props.hit.largeImageURL} className="card-img" />
+                        {(this.props.detailShow === false) ? <img height="200" src={this.props.hit.webformatURL} className="card-img" alt="" /> :
+                            <img src={this.props.hit.largeImageURL} className="card-img" alt="" />
                         }
 
                     </div>
@@ -28,12 +23,15 @@ export default class HitItem extends Component {
 
                     {this.props.detailShow === false ?
                         <div >
+
+
                             <Link to={'/details/id=' + this.props.hit.id} className="btn btn-success mb-2">hit details</Link>
+
                         </div> :
                         <div>
                             <div className="row">
                                 <div className="col-auto">
-                                    <img src={this.props.hit.userImageURL} className="img-thumbnail" />
+                                    <img src={this.props.hit.userImageURL} className="img-thumbnail" alt="" />
                                     <p><i class="fa fa-user">: {this.props.hit.user}</i></p>
                                 </div>
                                 <div>
@@ -49,7 +47,6 @@ export default class HitItem extends Component {
                                 </div>
 
                             </div>
-                            <div> <Link to="/gallery" className="btn btn-primary">Home</Link>   </div>
 
                         </div>
                     }

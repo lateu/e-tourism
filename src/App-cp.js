@@ -8,37 +8,39 @@ import Gallery from './components/Gallery';
 import About from './components/About';
 import HitDetails from './components/HitDetails';
 
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
       </header>
-
       <Router>
-        <nav className="navbar navbar-expand navbar-brand " >
+        <nav className="navbar navbar-expand navbar-brand ">
 
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <Link className="nav-link" to="/gallery">Home </Link>
+                <Link className="nav-link" to="/home">Home </Link>
               </li>
-              <li className="nav-item" hidden>
+              <li className="nav-item">
                 <Link className="nav-link" to="/counter">Counter</Link>
               </li>
-
+              <li className="nav-item">
+                <Link className="nav-link" to="/gallery">Gallery</Link>
+              </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/about">About</Link>
               </li>
-
+              <li className="nav-item">
+                <Link className="nav-link" to="/details/:id">details-route</Link>
+              </li>
             </ul>
           </div>
         </nav>
 
         <div className="container">
           <Switch>
-            <Route path="" component={Gallery}></Route>
+            <Route path="/home"></Route>
             <Route path="/counter" component={Counter}></Route>
             <Route path="/gallery" component={Gallery}></Route>
             <Route path="/about" component={About}></Route>

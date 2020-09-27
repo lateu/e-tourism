@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HitItem from './HitItem';
 import axios from 'axios';
-
+import Spinner from 'react-bootstrap/Spinner';
 export default class HitDetails extends Component {
     constructor(props) {
         super(props);
@@ -40,7 +40,7 @@ export default class HitDetails extends Component {
                 <HitItem hit={this.state.hit} detailShow={true} />
             )
         } else {
-            return <div> Nothing found</div>
+            return <div><Spinner animation="border" variant="dark" /></div>
         }
     }
 }
